@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@google/adk": "^2.0.0",
+    "@google/genai": "^2.22.0",
+    "zod": "^4.5.4"
+  },
+  "name": "pr-fixer-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx adk run agent.ts",
+    "web": "npx adk web agent.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@google/adk-devtools": "^2.0.0",
+    "@types/node": "^24.13.6",
+    "typescript": "^7.0.2"
+  }
+}
